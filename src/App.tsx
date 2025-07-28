@@ -6,6 +6,7 @@ import Todo from "./Components/Todo";
 import FocusInput from "./Components/FocuInput";
 import ContactForm from "./Components/ContactForm";
 import EventHandling from "./Components/EventHandling";
+import MyComponent from "./Components/MyComponent";
 
 
 
@@ -22,7 +23,7 @@ import EventHandling from "./Components/EventHandling";
 
       {/* <FocusInput /> */}
       {/* <ContactForm/> */}
-      <EventHandling/>
+      <MyComponent/>
     </div>
    )
  }
