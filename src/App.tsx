@@ -3,6 +3,9 @@ import { Button } from "./Components/Button"
 import { useState } from "react"
 import UserProfile from "./Components/UserProfile";
 import Todo from "./Components/Todo";
+import FocusInput from "./Components/FocuInput";
+import ContactForm from "./Components/ContactForm";
+import EventHandling from "./Components/EventHandling";
 
 
 
@@ -17,7 +20,9 @@ import Todo from "./Components/Todo";
       <button onClick={() => setCount(count + 1)}>Increment</button>
       <button onClick={() => setCount(count - 1)}>Decrement</button> */}
 
-      <Todo />
+      {/* <FocusInput /> */}
+      {/* <ContactForm/> */}
+      <EventHandling/>
     </div>
    )
  }
